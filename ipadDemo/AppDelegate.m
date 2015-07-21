@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MarstViewController.h"
+#import "DetailViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    MarstViewController *mvc = [[MarstViewController alloc]init];
+    
+    DetailViewController *dvc = [[DetailViewController alloc]init];
+    
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:dvc];
+    
+     UISplitViewController *splitView = [[UISplitViewController alloc]init];
+    
+    splitView.viewControllers = @[mvc,nvc];
+    
+    splitView.delegate = dvc;
+    
+    mvc.dvc = dvc;
+    
+    self.window.rootViewController = splitView;
+    
     return YES;
 }
 

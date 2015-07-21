@@ -14,6 +14,9 @@
 		29EF2F3B1B5DDD5500D114F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EF2F3A1B5DDD5500D114F7 /* Images.xcassets */; };
 		29EF2F3E1B5DDD5500D114F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29EF2F3C1B5DDD5500D114F7 /* LaunchScreen.xib */; };
 		29EF2F4A1B5DDD5500D114F7 /* ipadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF2F491B5DDD5500D114F7 /* ipadDemoTests.m */; };
+		29EF2F551B5DE16A00D114F7 /* MarstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF2F541B5DE16A00D114F7 /* MarstViewController.m */; };
+		29EF2F581B5DE18400D114F7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF2F571B5DE18400D114F7 /* DetailViewController.m */; };
+		29EF2F5B1B5DF38A00D114F7 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF2F5A1B5DF38A00D114F7 /* ConfigViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		29EF2F431B5DDD5500D114F7 /* ipadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EF2F481B5DDD5500D114F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EF2F491B5DDD5500D114F7 /* ipadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadDemoTests.m; sourceTree = "<group>"; };
+		29EF2F531B5DE16A00D114F7 /* MarstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarstViewController.h; sourceTree = "<group>"; };
+		29EF2F541B5DE16A00D114F7 /* MarstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarstViewController.m; sourceTree = "<group>"; };
+		29EF2F561B5DE18400D114F7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		29EF2F571B5DE18400D114F7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		29EF2F591B5DF38A00D114F7 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		29EF2F5A1B5DF38A00D114F7 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				29EF2F321B5DDD5400D114F7 /* AppDelegate.m */,
 				29EF2F341B5DDD5400D114F7 /* ViewController.h */,
 				29EF2F351B5DDD5400D114F7 /* ViewController.m */,
+				29EF2F531B5DE16A00D114F7 /* MarstViewController.h */,
+				29EF2F541B5DE16A00D114F7 /* MarstViewController.m */,
+				29EF2F561B5DE18400D114F7 /* DetailViewController.h */,
+				29EF2F571B5DE18400D114F7 /* DetailViewController.m */,
+				29EF2F591B5DF38A00D114F7 /* ConfigViewController.h */,
+				29EF2F5A1B5DF38A00D114F7 /* ConfigViewController.m */,
 				29EF2F371B5DDD5500D114F7 /* Main.storyboard */,
 				29EF2F3A1B5DDD5500D114F7 /* Images.xcassets */,
 				29EF2F3C1B5DDD5500D114F7 /* LaunchScreen.xib */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EF2F581B5DE18400D114F7 /* DetailViewController.m in Sources */,
 				29EF2F361B5DDD5400D114F7 /* ViewController.m in Sources */,
 				29EF2F331B5DDD5400D114F7 /* AppDelegate.m in Sources */,
+				29EF2F551B5DE16A00D114F7 /* MarstViewController.m in Sources */,
+				29EF2F5B1B5DF38A00D114F7 /* ConfigViewController.m in Sources */,
 				29EF2F301B5DDD5400D114F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
